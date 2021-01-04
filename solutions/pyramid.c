@@ -34,7 +34,7 @@ void create_hashes(int counter) {
   int i = 0;
 
   // remember create_hashes() has been called INSIDE pyramid
-  // so while i is less than counter, keep printing # on one line
+  // so while i is less than (or equal to) counter, keep printing # on one line
   while (i <= counter)
   {
     printf("#");
@@ -47,7 +47,7 @@ void pyramid(int height) {
     // this i is set so we can iterate down
     int i = height;
 
-    // increment and print spaces down from 'height' (i.e 5) to 0
+    // increment and print spaces down using 'height' (i.e 5 spaces to 0 spaces)
     // we need to +1 to counter -- It's a workaround to make
     // the while loop run the appropriate amount of times
     // ! It's weird, I know, don't worry bout it for now!
@@ -57,13 +57,13 @@ void pyramid(int height) {
       i += -1;
     }
 
-    // increment and print # up to 'height' (i.e 5) from 0
+    // increment and print # up using 'height' (i.e 1 hash to 5 hashes)
     create_hashes(counter);
 
     // put a couple spaces in between
     printf(" ");
 
-    // increment and print # up to 'height' (i.e 5) from 0
+    // increment and print # up using 'height' (i.e 1 hash to 5 hashes)
     create_hashes(counter);
 
     // new line and begin initial for loop again
