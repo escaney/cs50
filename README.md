@@ -8,7 +8,7 @@ Or use the cloud enviroment provided to you by the course
 
 ### Credits
 
-Thanks to Harvards online CS50 for this gem of a course!
+Thanks to CS50 for this gem of a course! https://cs50.harvard.edu/x/2020/weeks/0/
 
 ### Notes
 
