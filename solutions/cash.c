@@ -4,6 +4,7 @@
 void get_change(int cash);
 
 int main(void) {
+  // Need to validate users input
   float cash = get_float("Change owed: \n");
   int convertedToCents = cash * 100;
   get_change(convertedToCents);
