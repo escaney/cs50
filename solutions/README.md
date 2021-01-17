@@ -1,9 +1,9 @@
-### How to run from terminal
+### How to run from terminal examples
 
-`clang -o pyramid pyramid.c -lcs50`
+`clang -o file file.c -lcs50`
 
-(This should create a file called pyramid that is machine code)
+(This should create a file called 'file' that is machine code)
 
-`./pyramid`
+`./file`
 
 (This should execute that machine code)
